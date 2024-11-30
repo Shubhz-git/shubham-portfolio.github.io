@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Shubham's Portfolio website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	    <style>
+        #copyright {
+            color: black;
+        }
+
+        /* Fade-in animation for the wrapper */
+        #wrapper {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Animation for header */
+        #intro h1 {
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        #intro p {
+            animation: fadeInUp 2.5s ease-in-out;
+        }
+
+        /* Animation for featured post */
+        .post.featured {
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        /* Image hover effect */
+        .image.main img {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image.main img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Smooth link hover effect */
+        .nav a {
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .nav a:hover {
+            color: #f1c40f;
+            transform: translateY(-2px);
+        }
+
+        /* Keyframes for the fade-in and fade-up animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Position and Quote before Title -->
+			<section id="intro">
+				<h1>Site Reliability Engineer / DevOps Cloud Engineer</h1>
+				<p>"Optimizing systems for reliability and scalability, one cloud at a time."</p>
+			</section>
+
+			<ul class="actions">
+			<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+					
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li class="active"><a href="index.html">About Me</a></li>
+					<li><a href="work-stack.html">Work-Stack</a></li>
+					<li><a href="skills-certificates.html">Skills and Certificates</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/shubham-patil-444631100/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Shubhz-git" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Featured Post -->
+				<article class="post featured">
+					<header class="major">
+						<h2><a href="#">About Me</a></h2>
+						<p>Experienced Site Reliability Engineer/DevOps Cloud Engineer with over four years of expertise in designing, implementing, and optimizing cloud infrastructure solutions on AWS, Azure platforms. Specializing in automation and reliability, with a proven track record of enhancing system performance, scalability, and availability. Skilled in developing automated solutions for infrastructure provisioning, configuration management, and resource optimization across multi-cloud environments. Experienced in building and optimizing CI/CD pipelines, automating complex workflows, and driving operational efficiency across cloud-native environments. Adept at troubleshooting, implementing robust monitoring solutions, and ensuring secure, cost-effective, and highly reliable systems to support development teams and critical business operations.</p>
+					</header>
+					<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+				</article>
+
+				<!-- Copyright -->
+				<div id="copyright">
+					<ul><li>&copy; Shubham Patil</li><li> Portfolio</li></ul>
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

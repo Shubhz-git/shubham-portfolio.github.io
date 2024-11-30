@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Contact - Shubham Patil</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+      /* Add animation to the contact section */
+      @keyframes fadeInUp {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+
+      /* Apply fade-in animation to the main content */
+      #main {
+        animation: fadeInUp 1s ease-out;
+      }
+
+      /* Apply animation for each contact item */
+      .contact-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding: 20px;
+      }
+
+      .contact-item {
+        background: #f4f4f4;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        opacity: 0;
+        animation: fadeInUp 1s ease-out forwards;
+        animation-delay: 0.2s;
+      }
+
+      .contact-item:nth-child(2) {
+        animation-delay: 0.4s;
+      }
+
+      .contact-item:nth-child(3) {
+        animation-delay: 0.6s;
+      }
+
+      .contact-item:nth-child(4) {
+        animation-delay: 0.8s;
+      }
+
+      .contact-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .contact-item .icon {
+        font-size: 24px;
+        margin-right: 10px;
+      }
+
+      /* Change copyright text color to black */
+      #copyright {
+        color: black;
+      }
+
+      /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        .contact-details {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+      <!-- Header -->
+      <header id="header">
+        <!-- Optional header content can be added here -->
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="work-stack.html">Work-Stack</a></li>
+          <li><a href="skills-certificates.html">Skills and Certificates</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="icons">
+          <li><a href="https://www.linkedin.com/in/shubham-patil-444631100/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+          <li><a href="https://github.com/Shubhz-git" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+      </nav>
+
+      <!-- Main Content for Contact -->
+      <div id="main">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via the following:</p>
+
+        <!-- Contact Details -->
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class="icon fas fa-phone"></i>
+            <h3>Email and mobile</h3>
+            <p>patilshubham007@gmail.com, +353 0892076791</p>
+          </div>
+          <div class="contact-item">
+            <i class="icon fab fa-github"></i>
+            <h3>GitHub</h3>
+            <a href="https://github.com/Shubhz-git">Visit Profile</a>
+          </div>
+          <div class="contact-item">
+            <i class="icon fas fa-map-marker-alt"></i>
+            <h3>Location</h3>
+            <p>Dublin, Ireland</p>
+          </div>
+          <div class="contact-item">
+            <i class="icon fas fa-linkedin"></i>
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/shubham-patil-444631100/">Visit Profile</a>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div id="copyright">
+          <ul><li>&copy; Shubham Patil</li><li> Portfolio</li></ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scripts (same as in index.html) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
